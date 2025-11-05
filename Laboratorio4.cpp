@@ -38,6 +38,21 @@ void fill_decremental(std::vector<int> &values, int max_value)
 
 //------------------------- Sorting Algorithms -----------------------
 
+void Insertionsort(std::vector<int> &values)
+{
+    
+    for (int i = 0; i < values.size(); i++ )
+    {
+        for (int j = 0; j < values.size(); j++)
+        {
+
+            
+
+        }
+
+    }
+}
+
 
 
 
