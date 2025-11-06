@@ -3,7 +3,7 @@
 #include <chrono>    // For measuring execution time
 #include <vector>    // Para std::vector
 
-// ------------------------------  Starter Code  ------------------------
+// ------------------------------  Starter Code  --------------------------
 
 void fill_random(std::vector<int> &values, int max_value)
 {
