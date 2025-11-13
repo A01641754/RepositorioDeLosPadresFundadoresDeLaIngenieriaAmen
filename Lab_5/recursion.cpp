@@ -1,22 +1,22 @@
 #include "intlist.h"
 #include "recursion.h"
 
-
+// Complexity: O(N)
 int size(const IntList& a)
 {
-    if (is_empty(a))
-    {
+    if (is_empty(a)) {
         return 0;
     }
-
     return 1 + size(rest(a));
-    
 }
 
+// Complexity: O(N)
 IntList cons_end(int value, const IntList& a)
 {
-    if ()
-    return IntList {};
+    if (is_empty(a)) {
+        return cons(value, a);
+    }
+    return cons(first(a), cons_end(value, rest(a)));
 }
 
 int sum(const IntList& a)
