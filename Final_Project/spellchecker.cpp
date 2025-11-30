@@ -2,8 +2,8 @@
  * Project: Spell Checker
  * Date: 03-Dec-2025
  * Authors:
- *    A0XXXXXXX Nombre
- *    A0XXXXXXX Nombre
+ *    A01641754 Eduardo Márquez López
+ *    A01751507 Ángel Adrik Merino Cedeño
  *----------------------------------------------------------*/
 
 #include <iostream>
